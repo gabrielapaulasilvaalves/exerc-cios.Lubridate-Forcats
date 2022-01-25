@@ -56,3 +56,6 @@ lakers %>%
   dplyr::ungroup() %>%
   dplyr::summarise(media = mean(cronometro))
 
+install.packages("usethis")
+usethis::use_git()
+usethis::use_github()
